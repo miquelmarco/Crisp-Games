@@ -217,3 +217,15 @@ li>a:hover {
 
 /* footer edit */
 
+.footerBanner  {
+    width: 40%;
+    cursor: pointer;
+}
+
+.footerBanner:hover {
+    border: #0c203a solid 2px;
+}
+
+.footerTxt {
+    font-size: x-small;
+}
