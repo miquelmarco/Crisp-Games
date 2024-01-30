@@ -96,9 +96,13 @@ li>a:hover {
 }
 
 .headerLogo {
-    background-color: #303b66;
-    background-color: #ffb5ff;
     background-color: #0c203a;
+    border-radius: 5rem;
+    margin-top: 0.2rem !important;
+}
+
+.form-control {
+    border: solid #303b66 3px !important;
 }
 
 .button-20 {
@@ -181,8 +185,7 @@ li>a:hover {
 
 .productCardContainer:hover {
     cursor: pointer;
-    border: solid #0c203a 1px;
-    border-radius: 0.2rem;
+    scale: 1.01;
     transition: 0.2s;
 }
 
@@ -211,3 +214,6 @@ li>a:hover {
 .middleBanner {
     cursor: pointer;
 }
+
+/* footer edit */
+
