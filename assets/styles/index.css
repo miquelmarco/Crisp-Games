@@ -25,7 +25,7 @@
     padding: 0 !important;
     margin: 0 !important;
     box-sizing: border-box;
-    /* border: red solid 1px; */
+    border: red solid 1px;
 }
 
 html {
@@ -176,7 +176,7 @@ li>a:hover {
 }
 
 .productCardContainer {
-    width: 12vw;
+    width: 10rem;
     font-family: 'Poppins', sans-serif;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
@@ -217,7 +217,7 @@ li>a:hover {
 
 /* footer edit */
 
-.footerBanner  {
+.footerBanner {
     width: 40%;
     cursor: pointer;
 }
@@ -228,4 +228,101 @@ li>a:hover {
 
 .footerTxt {
     font-size: x-small;
+}
+
+/* querys */
+
+@media only screen and (max-width: 1200px) {
+    .sectionContainer {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .internSectionContainer {
+        width: 100% !important;
+    }
+
+    .secondInternConatiner {
+        width: 50% !important;
+    }
+
+    .listaUl {
+        width: 70%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .navbar-nav {
+        gap: 0.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .formLogReg {
+        width: 100% !important;
+    }
+
+    .formSearch {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .secondInternConatiner {
+        width: 80% !important;
+    }
+
+    .listaUl {
+        width: 75%;
+    }
+
+    .footerImgcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .footerBanner {
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .layout {
+        width: 95vw;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .headerMainContainer {
+        flex-direction: column;
+    }
+
+    .headerFirstContainer {
+        width: 100% !important;
+    }
+
+    .headerLogo {
+        width: 50% !important;
+    }
+
+    .logoHeaderContainer {
+        display: flex;
+        justify-content: center;
+        margin: 0.3rem !important;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .secondInternConatiner {
+        width: 95% !important;
+    }
+
+    .listaUl {
+        width: 90%;
+    }
 }
